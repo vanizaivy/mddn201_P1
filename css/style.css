@@ -15,31 +15,81 @@ section{
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	height:1320px;
 }
 
-header{
-	background-color: darkOrange;
-	color: white; /* more readable on an orange background */
-	padding-top: 50px;
-	padding-bottom: 50px;
+
+
+#title{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	background: red;
+
 }
 
-nav{
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size:150px;
+  color: #FFFFFF;
+  text-shadow: 3px 3px #A4A4A4;
+}
+
+.button {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  font-size:150px;
+  color: #525252;
+  text-shadow: 3px 3px #A4A4A4;
+}
+
+.cover img{
 	width: 100%;
-	height: 60px;
-	background-color: wheat;
+	float: center;
+  }
+
+  nav a{
+	float: center;
+	margin: 0px;
+	line-height: 50px;
+	margin-top: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-decoration: none;
+	font-size: 60px;
+	color: #525252;
+
+
 }
 
-nav a, nav h3{
+ header h3{
 	float: left;
 	margin: 0px;
 	line-height: 60px;
 	margin-left: 1em;
 	margin-right: 1em;
 	text-decoration: none;
+	font-size: 40px;
+
+
+
+
 }
 
-nav a:hover{
+
+
+nav a:hover {
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
@@ -61,12 +111,12 @@ nav a:hover{
 }
 
 .g-30{
-	width: 30%;
+	width: 60%;
 	float: left;
 }
 
 .g-70{
-	width: 70%;
+	width: 40%;
 	float: left;
 }
 

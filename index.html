@@ -8,146 +8,135 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body>
-
-<p>Notice how this content isn't centered. To center it we need to wrap it</p>
-
-	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
-
-		<p>Notice how if you change the width of your browser it stays in the center</p>
-	</section>
-
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
-	</section>
+<div class= "container">
+	<img src="img/building.jpg" width="100%">
+	 <div class="centered">Wellington Connection</div>
+	 <div class= "button">
 	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
-	</nav>
+		<a href="#one">Parking Meter</a>
+		<a href="#two">Satellite Dish</a>
+		<a href="#three">Internet Router</a>
+	 </nav>
+</div>
+</div>
+
+
 
 	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
-	</section>
+		<header>
+		
+			<h3 >Parking Meter</h3>
+			
+</header>
+<div class="g-row">
+			<div class="g-30">
+				<img src="img/parking_1.png">
+			</div>
+			<div class="g-70 padded">
+				
+				<p>Parking Meters can be found anywhere around Wellington. Hourly parking fees in the central business district range from $2.50 to $4.50 per hour, with a minimum charge of $1 for all transactions. They connect to networks which allow people to pay with debit/credit cards as well as snapper. </p>
+			</div>
+		</div>
+<br><br><br>
+
+
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/parking_2.png">
+			</div>
+			<div class="g-70 padded">
+				
+				
+			</div>
+		</div>
+
+
+		</section>
+	
+
+
+
+
 
 	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
-
-	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
-
-	<header>
-		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
-		</section>
+		<header>
+		
+			<h3>Satellite Dish</h3>
+			
+		
 	</header>
 
 	
-
-	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/dish_1.png">
 			</div>
-			<div class="g-50 show">
-				50% width .g-50
+			<div class="g-70 padded">
+				
+				<p>A satellite dish is a dish-shaped type of parabolic antenna usually found at the top of buildings or houses, they are designed to receive or transmit information by radio waves to or from a communication satellite.</p>
 			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
+		</div>
+<br><br><br>
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/dish_2.png">
 			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
+			<div class="g-70 padded">
+				
+				
 			</div>
 		</div>
 
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
+	
+	
 	</section>
 
-	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</section>
+
+
+
+	<section id="three">
+		<header>
+		
+			<h3>Internet Router</h3>
+			
+	
 	</header>
 
-	<section>
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
 
 		<div class="g-row">
 			<div class="g-30">
-				<img src="img/cover.jpg">
+				<img src="img/router_1.png">
 			</div>
 			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+				
+				<p>A router is a networking device that forwards data packets between computer networks. They are used all over the world as routers perform the traffic directing functions on the Internet allowing us to have access to it. Data sent through the internet, such as a web page or email, is in the form of data packets.</p>
+			</div>
+		</div>
+<br><br><br>
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/router_2.png">
+			</div>
+			<div class="g-70 padded">
+				
+			</div>
+		</div>
+<br><br><br>
+		<div class="g-row">
+			<div class="g-30">
+				<img src="img/router_3.jpg">
+			</div>
+			<div class="g-70 padded">
+				
 			</div>
 		</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
+		
+	
 	</section>
+
+
+
 
 </body>
 
