@@ -1,12 +1,14 @@
 *{
-	box-sizing: border-box; 
-	/* This makes the widths of elements more consistent
-		Full details here https://css-tricks.com/box-sizing/ */
+	box-sizing: border-box;
+	Full details here https://css-tricks.com/box-sizing/ */
 }
 
+
+
 body{
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	margin: 0px;
 	font-family: sans-serif;
+	background-size: 100%;
 }
 
 section{
@@ -18,8 +20,6 @@ section{
 	height:1320px;
 }
 
-
-
 #title{
 	margin-right: auto;
 	margin-left: auto;
@@ -27,7 +27,6 @@ section{
 	background: red;
 
 }
-
 
 .container {
   position: relative;
@@ -37,8 +36,8 @@ section{
 
 .centered {
   position: absolute;
-  top: 40%;
-  left: 30%;
+  top: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   font-size:150px;
   color: #FFFFFF;
@@ -47,7 +46,7 @@ section{
 
 .button {
   position: absolute;
-  top: 30%;
+  top: 10%;
   left: 60%;
   font-size:150px;
   color: #525252;
@@ -58,6 +57,16 @@ section{
 	width: 100%;
 	float: center;
   }
+
+	.button1 {
+	  position: absolute;
+	  top: 35%;
+	  left: 25%;
+	  transform: translate(-50%, -50%);
+	  font-size:100px;
+	  color: #FFFFFF;
+	  text-shadow: 3px 3px #A4A4A4;
+	}
 
   nav a{
 	float: center;
@@ -81,10 +90,6 @@ section{
 	margin-right: 1em;
 	text-decoration: none;
 	font-size: 40px;
-
-
-
-
 }
 
 
@@ -93,7 +98,55 @@ nav a:hover {
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+.cartoon img{
+	width: 20%;
+	margin-left: 8em;
+	margin-top: 5em;
 
+	}
+
+	.pages1{
+		position: absolute;
+		width: 60%;
+		margin-top: 19%;
+		margin-left: 1%;
+	}
+
+
+
+.home{
+	background-color: #85929E  ;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.home1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #85929E;
+}
+
+.home1:hover {
+  background-color: #85929E;
+  color: white;
+}
+
+.example2 {
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.glow-button:hover {
+ padding: 15px 40px;
+}
 
 /* Simple grid */
 .g-row{
@@ -102,22 +155,19 @@ nav a:hover {
 }
 
 .g-row img{
-	width: 100%; /*This makes all images in grids to be the size of their cell */
+	width: 100%; 
 }
 
-.g-50{
-	width: 50%;
-	float: left;
-}
-
-.g-30{
-	width: 60%;
-	float: left;
-}
 
 .g-70{
+	position: absolute;
+	top: 70%;
+	left: 80%;
 	width: 40%;
 	float: left;
+	transform: translate(-50%, -50%);
+	font-size:30px;
+	text-shadow: 3px 3px #A4A4A4;
 }
 
 .show{
@@ -126,5 +176,5 @@ nav a:hover {
 }
 
 .padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
+	padding: 20px; 
 }
